@@ -1,0 +1,34 @@
+{
+  "name": "bitespeed-identity-reconciliation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-v-s-vinay/bitespeed-identity-reconciliation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/k-v-s-vinay/bitespeed-identity-reconciliation/issues"
+  },
+  "homepage": "https://github.com/k-v-s-vinay/bitespeed-identity-reconciliation#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.2",
+    "express": "^5.2.1",
+    "prisma": "^6.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
